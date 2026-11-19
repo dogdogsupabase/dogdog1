@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+.pnp/
+.pnp.js
+
+# Segredos e Variaveis de Ambiente
+.env
+.env*.local
+data/auth_info
+
+# Compilacao e Builds (Next.js / TypeScript)
+.next/
+out/
+build/
+dist/
+
+# Logs e Telemetria
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Documentacao, Planejamentos, Especificacoes e Previews
+docs/
+*.pdf
+*.xls
+*.xlsx
+*.csv
+*.docx
+*.zip
+
+# Previews e Prototipos HTML Soltos
+*preview*.html
+
+# Arquivos de Banco de Dados, Migrations e SQL
+*.sql
+migrations/
+*.dump
+*.scratch.sql
+*.temp.sql
+*.bak
